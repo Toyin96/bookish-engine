@@ -1,5 +1,5 @@
 # Exercise 2.6
-""" Program to check is an integer is odd or even"""
+""" Program to check if an integer is odd or even"""
 
 a = int(input('Enter an integer: '))
 
