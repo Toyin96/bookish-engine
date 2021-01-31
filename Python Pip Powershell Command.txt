@@ -1,0 +1,1 @@
+prospector --strictness veryhigh --doc-warnings
