@@ -1,4 +1,10 @@
 # coding: utf-8
+import ipython --matplotlib
+import matplotlib.pyplot as plt
+import numpy as np
+import random
+import seaborn as sns
+
 rolls = [random.randrange(1, 7) for i in range(60000)]
 values, frequencies = np.unique(rolls, return_counts=True)
 sns.set_style('whitegrid')
